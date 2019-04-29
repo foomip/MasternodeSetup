@@ -1,6 +1,6 @@
 # MasternodeSetup
 
-wget -q https://github.com/SapphireCoreCoin/MasternodeSetup/blob/master/masternodeinstall.sh
+wget -q https://raw.githubusercontent.com/SapphireCoreCoin/MasternodeSetup/blob/master/masternodeinstall.sh
 
 sudo chmod +x masternodeinstall.sh
 
