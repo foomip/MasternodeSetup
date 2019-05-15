@@ -7,7 +7,6 @@ Required:
 
 VPS Commands:
 
-wget -q https://raw.githubusercontent.com/SapphireCoreCoin/MasternodeSetup/master/masternodeinstall.sh
-
-sudo chmod +x masternodeinstall.sh
+wget -q https://raw.githubusercontent.com/SapphireCoreCoin/MasternodeSetup/master/masternodeinstall.sh <br>
+sudo chmod +x masternodeinstall.sh <br>
 ./masternodeinstall.sh
