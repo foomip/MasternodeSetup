@@ -38,4 +38,4 @@ b. Use the taxid and masternode genkey from step 1
 Fourth Step: VPS
 1. Enter below command to make sure that your masternode has started successfully
 sap-cli masternode status
-2. If started correctly, you will see the below output
+
