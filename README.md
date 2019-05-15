@@ -6,6 +6,7 @@ Required:
 3. VPS with Ubuntu 16.04
 
 VPS Commands:
+
 wget -q https://raw.githubusercontent.com/SapphireCoreCoin/MasternodeSetup/master/masternodeinstall.sh
 sudo chmod +x masternodeinstall.sh
 ./masternodeinstall.sh
