@@ -2,7 +2,7 @@
 
 Required:
 1. SAP Coins for Collateral
-2. Local Wallet: https://github.com/SapphireCoreCoin/SAP/releases
+2. Local Wallet: https://github.com/SapphireCoreCoin/SAPP/releases
 3. VPS with Ubuntu 16.04
 
 VPS Commands:
