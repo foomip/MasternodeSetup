@@ -276,7 +276,7 @@ function setup_node() {
   #enable_firewall
   #install_sentinel
   important_information
-  configure_systemd
+  #configure_systemd
 }
 
 
