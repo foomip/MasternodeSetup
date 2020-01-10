@@ -127,14 +127,13 @@ function create_key() {
   #read -e COINKEY
   #if [[ -z "$COINKEY" ]]; then
   $COIN_PATH$COIN_DAEMON -daemon
-  #sleep 30
+  sleep 30
   #if [ -z "$(ps axo cmd:100 | grep $COIN_DAEMON)" ]; then
   # echo -e "${RED}$COIN_NAME server couldn not start. Check /var/log/syslog for errors.{$NC}"
   # exit 1
   #fi
   COINKEY=$($COIN_PATH$COIN_CLI masternode genkey)
-  if [ "$?" -gt "0" ];
-    then
+  if [ "$?" -gt "0" ]; then
     echo -e "${RED}Wallet not fully loaded. Let us wait and try again to generate the GEN Key${NC}"
     sleep 30
     COINKEY=$($COIN_PATH$COIN_CLI masternode genkey)
@@ -269,7 +268,7 @@ function important_information() {
 }
 
 function setup_node() {
-  get_ip
+  #get_ip
   create_config
   create_key
   update_config
