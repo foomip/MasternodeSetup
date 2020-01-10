@@ -115,10 +115,11 @@ rpcuser=$RPCUSER
 rpcpassword=$RPCPASSWORD
 rpcport=$RPC_PORT
 rpcallowip=127.0.0.1
+addnode=0.0.0.0:56740
 port=$COIN_PORT
 listen=1
 server=1
-daemon=0
+daemon=1
 EOF
 }
 
