@@ -118,7 +118,7 @@ rpcallowip=127.0.0.1
 port=$COIN_PORT
 listen=1
 server=1
-daemon=1
+daemon=0
 EOF
 }
 
