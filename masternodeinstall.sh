@@ -114,10 +114,8 @@ function create_config() {
 rpcuser=$RPCUSER
 rpcpassword=$RPCPASSWORD
 rpcport=$RPC_PORT
-rpcallowip=`hostname -I`
 port=$COIN_PORT
 externalip=$NODEIP
-addnode=`hostname -I`:$COIN_PORT
 listen=1
 server=1
 daemon=1
