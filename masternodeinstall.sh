@@ -13,7 +13,7 @@ COIN_EXPLORER='http://explorer.sapphirecore.com'
 COIN_PORT=45328
 RPC_PORT=45329
 
-NODEIP=$(curl -s4 icanhazip.com)
+#NODEIP=$(curl -s4 icanhazip.com)
 
 BLUE="\033[0;34m"
 YELLOW="\033[0;33m"
@@ -149,7 +149,6 @@ function update_config() {
   sed -i 's/daemon=1/daemon=0/' $CONFIGFOLDER/$CONFIG_FILE
   cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
 maxconnections=256
-bind=$NODEIP
 masternode=1
 masternodeaddr=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
