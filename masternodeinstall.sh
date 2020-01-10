@@ -140,8 +140,8 @@ function create_key() {
     COINKEY=$($COIN_PATH$COIN_CLI masternode genkey)
   fi
   $COIN_PATH$COIN_CLI stop
-fi
-clear
+  #fi
+  #clear
 }
 
 function update_config() {
