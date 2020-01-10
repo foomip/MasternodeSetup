@@ -57,7 +57,7 @@ function download_node() {
   compile_error
   unzip $COIN_ZIP >/dev/null 2>&1
   compile_error
-  cd linux
+  #cd linux
   chmod +x $COIN_DAEMON
   chmod +x $COIN_CLI
   cp $COIN_DAEMON $COIN_PATH
